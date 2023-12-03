@@ -24,7 +24,7 @@ sycl源代码在src目录下，其中`src/matrix_mul_before_opt.cpp`源文件为
 
 ### 构建项目时采用的技术栈及主要实现方案
 
-![image-20231202225124127](/Users/kaiyu/Library/Application Support/typora-user-images/image-20231202225124127.png)
+![image-20231202225124127](./images/image-20231202225124127.png)
 
 上图中列出了Intel OneAPI对异构编程提供的开发工具，我在开发中使用了SYCL语言在VScode和Intel Devcloud平台上进行开发，使用了OpenMP和gdb-oneapi debugger工具。
 
@@ -32,7 +32,7 @@ sycl源代码在src目录下，其中`src/matrix_mul_before_opt.cpp`源文件为
 
 在项目目录下执行`qsub build.sh`，然后执行`qsub run.sh`，即可看到类似如下输出：
 
-![image-20231202222902551](/Users/kaiyu/Library/Application Support/typora-user-images/image-20231202222902551.png)
+![image-20231202222902551](./images/image-20231202222902551.png)
 
 ### 结果
 
